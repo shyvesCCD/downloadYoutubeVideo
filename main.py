@@ -1,7 +1,7 @@
 # script rápido pra baixar videos do youtube.
 from pytube import YouTube
 
-link = input('Qual o link para o video?')
+link = input('Qual o link para o video? ')
 
 yt = YouTube(link)
 print(yt.title)
